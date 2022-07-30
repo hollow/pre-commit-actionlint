@@ -1,0 +1,9 @@
+---
+- id: actionlint
+  name: actionlint
+  language: golang
+  types: ["yaml"]
+  files: "^.github/workflows/"
+  entry: actionlint
+  additional_dependencies:
+    - github.com/rhysd/actionlint/cmd/actionlint@v1.6.15
