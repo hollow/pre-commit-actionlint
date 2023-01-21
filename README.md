@@ -19,7 +19,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/hollow/pre-commit-actionlint
-  rev: "v1.6.22"
+  rev: "v1.6.23"
   hooks:
     - id: actionlint
 ```
